@@ -5,6 +5,8 @@ import (
 	"bookings-udemy/pkg/handlers"
 	"github.com/bmizerany/pat"
 	"net/http"
+		"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 )
 
 func routes(app *config.AppConfig) http.Handler {
